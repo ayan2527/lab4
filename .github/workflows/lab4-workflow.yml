@@ -18,7 +18,7 @@ jobs:
         uses: actions/setup-node@v4  # Changed v6 to v4
         with:
           node-version: '20.x'
-          registry-url: 'https://github.com' # Added this line
+          registry-url: 'https://npm.pkg.github.com' # Added this line
 
       - name: Install NPM Dependencies
         run: npm install 
