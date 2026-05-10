@@ -1,6 +1,9 @@
 {
   "name": "@Ayan2527/lab4",
   "version": "7.7.9",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
   "author": "Siddharth Barahalikar <barahalikar.siddharth@gmail.com>",
   "homepage": "https://www.linkedin.com/in/barahalikar-siddharth/",
   "license": "MIT",
