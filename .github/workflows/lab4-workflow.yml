@@ -18,4 +18,6 @@ jobs:
             registry-url: 'https://github.com'
 
         - name : Install NPM Dependencies
-          run : npm install
+          run : npm 
+          env :
+            NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
